@@ -14,11 +14,13 @@ Flowchart:
 ![Components of a Flowchart](images/sum-of-two-numbers.png)
 
 Pseudocode:
+```text 
     Step 1: Start
     Step 2: Input number a and b
     Step 3: Calculate sum = a + b
     Step 4: Print sum
     Step 5: Exit
+```
 
 2. Calculate simple interest:
 input: principal 'P', rate 'R', time 'T'
@@ -28,11 +30,13 @@ Flowchart:
 ![Components of a Flowchart](images/simple-interest.png)
 
 Pseudocode:
+```text
     Step 1: Start
     Step 2: Input principal (P), rate (R), time (T)
     Step 3: Calculate SI = (P*R*T) / 100
     Step 4: Print SI
     Step 5: Exit
+```
 
 3. Find max of 3 numbers:
 input: 3 numbers: a, b & c
@@ -42,6 +46,7 @@ Flowchart:
 ![Components of a Flowchart](images/max-of-three-numbers.png)
 
 Pseudocode:
+```text
     Step 1: Start
     Step 2: Input a, b and c
     Step 3: if a > b do 
@@ -55,6 +60,7 @@ Pseudocode:
                 else 
                     print c
     Step 4: Exit
+``` 
 
 4. Find if number is prime:
 input: number 'n'
@@ -64,6 +70,7 @@ Flowchart:
 ![Components of a Flowchart](images/prime-number-or-not.png)
 
 Pseudocode:
+```text
     Step 1: Start
     Step 2: Input number 'n'
     Step 3: let div = 2
@@ -75,7 +82,7 @@ Pseudocode:
                     div = div + 1
     Step 5: Print PRIME
     Step 6: Exit
-
+```
 NOTE: there is property for non-prime numbers i.e. if 'n' is my non-prime number then from 2 <----> n-1 there will a divisor that will completely divide the 'n'
 e.g. 6: 2 <----> 5 there is 2 & 3 that completely divides the number 6.
 
@@ -87,6 +94,7 @@ Flowchart:
 ![Components of a Flowchart](images/sum-of-first-natural-numbers.png)
 
 Pseudocode: 
+```text
     Step 1: Start
     Step 2: Input number 'n'
     Step 3: let val = 1 & sum = 0
@@ -95,6 +103,7 @@ Pseudocode:
                 val = val + 1
     Step 5: Print sum
     Step 6: Exit
+``` 
 
 6. Calculate area of a circle:
 input: radius 'r'
@@ -104,11 +113,13 @@ Flowchart:
 ![Components of a Flowchart](images/area-of-circle.png)
 
 Pseudocode:
+```text
     Step 1: Start
     Step 2: Input radius 'r'
     Step 3: Calculate area = 3.14 * r * r
     Step 4: Print area
     Step 5: Exit
+```
 
 7. Find greatest from 2 numbers:
 input: 2 numbers:  a & b
@@ -118,6 +129,7 @@ Flowchart:
 ![Components of a Flowchart](images/greatest-of-two-numbers.png)
 
 Pseudocode:
+```text
     Step 1: Start
     Step 2: Input a and b
     Step 3: if a > b do
@@ -125,6 +137,7 @@ Pseudocode:
             else
                 print b
     Step 4: Exit
+```
 
 8. Print even numbers between 9 and 100:
 input: 9 and 100
@@ -134,6 +147,7 @@ Flowchart:
 ![Components of a Flowchart](images/even-number-between-range.png)
 
 Pseudocode:
+```text
     Step 1: Start
     Step 2: let n = 9, end = 100
     Step 3: while n <= end
@@ -141,6 +155,7 @@ Pseudocode:
                     print n
                 n = n + 1
     Step 4: Exit
+```
 
 9. Calculate average from 25 exam scores:
 input: 25 scores
@@ -150,6 +165,7 @@ Flowchart:
 ![Components of a Flowchart](images/average-of-25-scores.png)
 
 Pseudocode:
+```text
     Step 1: Start
     Step 2: let sum = 0 and n = 1
     Step 3: while n <= 25
@@ -159,3 +175,4 @@ Pseudocode:
     Step 4: Calculate avg = sum / 25
     Step 5: Print avg
     Step 6: Exit
+```

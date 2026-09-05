@@ -38,7 +38,7 @@ public class examples { //class name should be same as file name
         byte by = 2;
         char ch = 'a';
         boolean var = true;
-        float price = 10.5f;
+        float price = 10.5f; //whenever we take float value we need to write 'f' after the value as it takes the value as double by default
         int num = 25;
         long rate = 1012244284;
         double val = 12.2389932;
@@ -55,8 +55,30 @@ public class examples { //class name should be same as file name
         System.out.println(name);
 
         // =========================
-        // 7. Output in Java
+        // 7. Type Conversion
         // =========================
+        int c = 10;
+        double d = c;
 
+        // =========================
+        // 8. Type Casting
+        // =========================
+        double e = 10.5;
+        int f = (int)e;
+
+        // =================================
+        // 9. Type Promotion in Expression
+        // =================================
+        char g = 'a';
+        short h = 50;
+        System.out.println(c + d); //will give 147 as an output
+
+        int i = 10;
+        float j = 20.25f;
+        long k = 25;
+        double l =30.2033;
+
+        double ans = i + j + k + l;
+        System.out.println(ans); //will return 85.4533 and its type will be double as its the largest possible type
     }
 }

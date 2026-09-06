@@ -127,13 +127,14 @@ Types of Operators:
     ```text
         ++ : simple way of writing 'a = a + 1'
             e.g.: a++ OR ++a
-            ![Components of a Variables&DataTypes](images/increment-operator.png)
     ```
+    ![Components of a Variables&DataTypes](images/increment-operator.png)
+
     ```text
         -- : simple way of writing 'a = a - 1'
             e.g.: a-- OR --a
-            ![Components of a Variables&DataTypes](images/decrement-operator.png)
     ```
+    ![Components of a Variables&DataTypes](images/decrement-operator.png)
 
 - Relational Operators
 ```text

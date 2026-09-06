@@ -119,31 +119,41 @@ NOTE: Java is a portable language meaning we can write java code in any machine 
 Types of Operators:
 - Arithmetic Operators (Binary / Unary)
     1. Binary Operators: Needs two operands
+    ```text
         '+', '-', '*', '/', '%'
+    ```
     
     2. Unary Operators: Needs a single operand
+    ```text
         ++ : simple way of writing 'a = a + 1'
             e.g.: a++ OR ++a
             ![Components of a Variables&DataTypes](images/increment-operator.png)
-        
+    ```
+    ```text
         -- : simple way of writing 'a = a - 1'
             e.g.: a-- OR --a
             ![Components of a Variables&DataTypes](images/decrement-operator.png)
+    ```
 
 - Relational Operators
+```text
     '==', '!=', '>', '<', '>=', '<='
+```
 
 - Logical Operators
+```text
     '&&' --> Logical AND 
     '||' --> Logical OR 
     '!' --> Logical NOT
+```
 
 - Bitwise Operators (ADVANCE LEVEL will continue in next chapter...)
 
 - Assignement Operators
+```text
     '=' --> 'a = 10'
     '+=' --> 'a = a + 10' OR 'a+=10'
     '-=' --> 'b = b - 5' OR 'b-=5'
     '*=' --> 'c = c * 10' OR 'c*=10'
     '/=' --> 'd = d / 5' OR 'd/=5'
-
+```

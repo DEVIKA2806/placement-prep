@@ -111,3 +111,39 @@ NOTE: Names of variables are called identifiers in Java. Identifier rule says, i
 ![Components of a Variables&DataTypes](images/java-working-2.png)
 
 NOTE: Java is a portable language meaning we can write java code in any machine (Window, Linux, MAC).
+
+# Operators in Java: Symbols that tell compiler to perform some operation.
+
+![Components of a Variables&DataTypes](images/operator-example.png)
+
+Types of Operators:
+- Arithmetic Operators (Binary / Unary)
+    1. Binary Operators: Needs two operands
+        '+', '-', '*', '/', '%'
+    
+    2. Unary Operators: Needs a single operand
+        ++ : simple way of writing 'a = a + 1'
+            e.g.: a++ OR ++a
+            ![Components of a Variables&DataTypes](images/increment-operator.png)
+        
+        -- : simple way of writing 'a = a - 1'
+            e.g.: a-- OR --a
+            ![Components of a Variables&DataTypes](images/decrement-operator.png)
+
+- Relational Operators
+    '==', '!=', '>', '<', '>=', '<='
+
+- Logical Operators
+    '&&' --> Logical AND 
+    '||' --> Logical OR 
+    '!' --> Logical NOT
+
+- Bitwise Operators (ADVANCE LEVEL will continue in next chapter...)
+
+- Assignement Operators
+    '=' --> 'a = 10'
+    '+=' --> 'a = a + 10' OR 'a+=10'
+    '-=' --> 'b = b - 5' OR 'b-=5'
+    '*=' --> 'c = c * 10' OR 'c*=10'
+    '/=' --> 'd = d / 5' OR 'd/=5'
+
